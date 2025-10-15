@@ -1,0 +1,45 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#game {
+  max-width: 800px;
+  margin: auto;
+}
+
+#answers {
+  list-style: none;
+  padding: 0;
+}
+
+#answers li {
+  background: #222;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+#input-area {
+  margin: 20px 0;
+}
+
+#strikes {
+  font-size: 2em;
+  color: red;
+}
+
+#timer {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1em;
+}
